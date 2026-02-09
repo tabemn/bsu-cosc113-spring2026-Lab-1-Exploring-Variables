@@ -9,18 +9,18 @@ public class VariableExplorer {
     // 1.3 Declare a boolean variable named 'isStudent' and initialize it to true if you are a student, false otherwise.
     // 1.4 Declare a String variable named 'name' and initialize it to your name.
 
+    // Stores my current age in years; an int is used because age is a whole number.
     int age = 20;
-    // Stores my current age in years; an int is used because age is a whole number
 
+    // Stores my height in meters; a double allows for decimal precision.
     double height = 1.6256;
-    // Stores my height in meters; a double allows for decimal precision
-
+    
+    // Represents whether I am currently a student (true = yes, false = no).
     boolean isStudent = true;
-    // Represents whether I am currently a student (true = yes, false = no)
-
+    
+    // Stores my full name as text, which is why a String is appropriate.
     String name = "Nia Silke Tabe";
-    // Stores my full name as text, which is why a String is appropriate
-
+    
     // Exercise 2: Printing Variable Values
     // 2.1 Print the values of all the variables you declared in Exercise 1,
     //     including descriptive labels in the output.
@@ -35,13 +35,12 @@ public class VariableExplorer {
     // 3.2 Change the value of the 'isStudent' variable to its opposite.
     // 3.3 Print the updated values of 'age' and 'isStudent'.
  
-
+    // Updates the age variable to represent my age next year.
     age = 21;
-    // Updates the age variable to represent my age next year
-
+    
+    // Changes the student status to the opposite of the original value.
     isStudent = false;
-    // Changes the student status to the opposite of the original value
-
+    
     System.out.println("My age next year would be: " + age);
     System.out.println("Student Status: " + isStudent);
 
@@ -50,12 +49,12 @@ public class VariableExplorer {
     // 4.2 Declare a 'float' variable named 'weight' and initialize it to your weight in kilograms (use a float literal, e.g., 70.5f).
     // 4.3 Print the values of 'initial' and 'weight'.
  
+    // Stores the first letter of my last name using a single character.
     char initial = 'T';
-    // Stores the first letter of my last name using a single character
-
+    
+    // Stores my weight in kilograms; float is used to allow decimal values.
     float weight = 58.967f;
-    // Stores my weight in kilograms; float is used to allow decimal values
-
+    
     System.out.println("The first letter of my last name is: " + initial);
     System.out.println("My weight in kilograms is: " + weight);
 
@@ -63,10 +62,9 @@ public class VariableExplorer {
     // 5.1 Declare an integer variable 'totalHeight' and assign it the value of 'height' converted to an integer (using casting).
     // 5.2 Print the value of 'totalHeight'.
  
-
-   int totalHeight = (int)height;
-   // Converts my height from a double to an int by removing the decimal portion
-
+   // Converts my height from a double to an int by removing the decimal portion.
+    int totalHeight = (int)height;
+   
    System.out.println("The value of totalHeight is: " + totalHeight);
 
     // Exercise 6: Data Types and Variable Declarations
@@ -74,12 +72,12 @@ public class VariableExplorer {
     // 6.2 Declare a short variable named 'zipCode' and initialize it to your local zip code.
     // 6.3 Print the values of 'population' and 'zipCode'.
  
+    // Stores the estimated population of my city; long is used for large numbers.
     long population = 21052L;
-    // Stores the estimated population of my city; long is used for large numbers
-
+    
+    // Stores my local zip code as a short integer.
     short zipCode = 20785;
-    // Stores my local zip code as a short integer
-
+    
     System.out.println("The estimated population of my city is: " + population);
     System.out.println("My local zip code is: " + zipCode);
 
