@@ -98,4 +98,3 @@ public class VariableExplorer {
     System.out.println("\n--- Lab Exercise Complete ---");
   }
 }
- 
